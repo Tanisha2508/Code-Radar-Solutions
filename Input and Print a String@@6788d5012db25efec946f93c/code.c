@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    string_varirable ch;
+    char ch[100];
     scanf("%s",&ch);
-    printf("%You enterd:%s",ch);
+    printf("%You enterd: %s",ch);
     return 0;
 }
