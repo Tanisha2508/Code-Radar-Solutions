@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char ht,ch[100];
+    char ht[20],ch[20];
     scanf("%c %c",&ch,&ht);
     printf("You entered: %c and %c",ch,ht);
     return 0;
