@@ -11,7 +11,7 @@ int main() {
 
     }
     printf("\n");
-
+}
 int main(){
     int num;
     scanf("%d",&num);
