@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main() {
-    char v,c,a;
-    scanf("%c %c %c",&v,&c,&a);
+    char v;
+    scanf("%c",&v);
     if(v=='R'){
         printf("Stop");    
     }
-    else if(c=='G'){
+    else if(v=='G'){
         printf("Go");
     }
-    else if(a=='Y'){
+    else if(v=='Y'){
         printf("Slow Down");
     }
     else{
