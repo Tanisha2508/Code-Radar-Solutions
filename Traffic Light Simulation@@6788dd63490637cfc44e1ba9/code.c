@@ -2,13 +2,13 @@
 int main() {
     char v,c,a;
     scanf("%c %c %c",&v,&c,&a);
-    if(v==R){
+    if(v=='R'){
         printf("Stop");    
     }
-    else if(c==G){
+    else if(c=='G'){
         printf("Go");
     }
-    else if(a==Y){
+    else if(a=='Y'){
         printf("Slow Down");
     }
     else{
