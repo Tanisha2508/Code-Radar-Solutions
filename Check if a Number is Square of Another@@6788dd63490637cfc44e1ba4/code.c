@@ -3,8 +3,8 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    int c=b**2
-    if(c==a){
+    int c=a**2
+    if(c==b){
         printf("Yes");
     }
     else{
