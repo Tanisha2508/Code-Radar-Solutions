@@ -5,10 +5,10 @@ int main() {
     if(h=='A'){
         printf("Excellent");
     }
-    else if(h=='B'){
+    /*else if(h=='B'){
         printf("Good");
     }
-    /*else if(h=='C'){
+    else if(h=='C'){
         printf("Average");
     }
     else if(h=='D'){
