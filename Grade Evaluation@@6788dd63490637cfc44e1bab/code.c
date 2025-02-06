@@ -8,7 +8,7 @@ int main() {
     else if(h=='B'){
         printf("Good");
     }
-    else if(h=='C'){
+    /*else if(h=='C'){
         printf("Average");
     }
     else if(h=='D'){
@@ -19,6 +19,6 @@ int main() {
     }
     else{
         printf("Invalid grade");
-    }
+    }*/
     return 0;
 }
