@@ -16,9 +16,18 @@ int main() {
     d= a*b;
     printf("%d",d);
     }
-    else{
+    else if(c=='-'){
     d= a-b;
     printf("%d",d);
+    }
+    else{
+        if(b!=0){
+            d=a/b;
+            printf("%d",d);
+        }
+        else{
+            printf("error");
+        }
     }
 return 0;
 }
