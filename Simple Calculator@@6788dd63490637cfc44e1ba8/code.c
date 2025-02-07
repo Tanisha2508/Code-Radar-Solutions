@@ -22,9 +22,10 @@ int main() {
     }
     else
     {
-        if(b!=0){
-             d = a/b;
-            printf("%d",d);
+        if(b!=0)
+        {
+        d = a/b;
+        printf("%d",d);
         }
         else{
              printf("error");
