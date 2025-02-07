@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a==0){
+    if(a==1){
        if(a>=18){
         printf("Eligible");
        }
@@ -10,7 +10,7 @@ int main() {
         printf("Not Eligible");
        }
     else{
-        printf("gh");
+        printf("Non citizen");
     }
     }
     return 0;
