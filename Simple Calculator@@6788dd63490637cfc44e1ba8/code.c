@@ -20,7 +20,8 @@ int main() {
     d= a-b;
     printf("%d",d);
     }
-    else{
+    else
+    {
         if(b == 0){
             printf("error");
         }
