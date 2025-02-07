@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a>=1 && a<=12){
+    if(a>=1 || a<=12){
         if(a==2){
             printf("28");
         }
