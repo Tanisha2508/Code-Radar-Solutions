@@ -24,12 +24,7 @@ void decimalToBinary(int n) {
 
 int main() {
     int decimal;
-
-    
-    printf("Enter a decimal number: ");
     scanf("%d", &decimal);
-
-    printf("Binary equivalent: ");
     decimalToBinary(decimal);
 
     return 0;
