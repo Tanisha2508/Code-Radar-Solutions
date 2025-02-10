@@ -13,7 +13,8 @@ int main() {
             printf("error");
         }
         else{
-            printf("%d",a/b);
+            d=a/b;
+            printf("%d",d);
         }
     }
     else if(c=='*'){
