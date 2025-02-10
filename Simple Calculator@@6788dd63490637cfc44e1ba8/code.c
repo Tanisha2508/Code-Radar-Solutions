@@ -24,7 +24,7 @@ int main() {
     d= a-b;
     printf("%d",d);
     }
-    else
+    /*else
     {
         if(b!=0)
         {
@@ -34,6 +34,6 @@ int main() {
         else{
             printf("error");
         }
-    }
+    }*/
     return 0;
 }
