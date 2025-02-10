@@ -9,8 +9,12 @@ int main() {
     printf("%d",d);
     }
     else if(c=='/'){
-    d= a/b;
-    printf("%d",d);
+        if(b==0){
+            printf("error");
+        }
+        else{
+            printf("%d",a/b);
+        }
     }
     else if(c=='*'){
     d= a*b;
