@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int n;
+    int n,N;
     scanf("%d",&n);
-    printf(n=1;n<=5;n++){
+    printf(n=1;n<=N;n++){
         printf("%d",n);
     }
     return 0;
