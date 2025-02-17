@@ -6,9 +6,15 @@ int main() {
         if(a>c){
             printf("%d",a);
         }
+        else{
+            printf("%d",c);
+        }
     else if(b>a){
         if(b>c){
             printf("%d",b);
+        }
+        else{
+            printf("%d",c);
         }
     }
     else{
