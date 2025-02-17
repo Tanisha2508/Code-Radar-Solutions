@@ -2,14 +2,18 @@
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if (a>c&&a>b){
-        printf("%d",a);
+    if (a>b){
+        if(a>c){
+            printf("%d",a);
+        }
+    else if(b>a){
+        if(b>c){
+            printf("%d",b);
+        }
     }
-   else if(b>c&&b>a){
-    printf("%d",b);
-   }
-   else{
-    printf("%d",c);
-   }
+    else{
+        printf("%d",c);
+    }
+    }
     return 0;
 }
