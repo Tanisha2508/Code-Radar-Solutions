@@ -7,6 +7,6 @@ scanf("%d",&age);
 char hobby[30];
 printf("Name: %s",ch);
 printf("\nAge: %d",age);
-scanf("\nHobby: %s",hobby);
+printf("\nHobby: %s",hobby);
 return 0;
 }
