@@ -1,10 +1,9 @@
 #include <stdio.h>
 int isPrime(int a){
     int c=0;
-for(int i=1; i<=a; i++){
-    if(a%i==0){
-        c++;
-    }
+for(i=1;i<=a;i++){
+    (i%2==0);
+    c++;
 }
 if(c==2){
     return 1;
