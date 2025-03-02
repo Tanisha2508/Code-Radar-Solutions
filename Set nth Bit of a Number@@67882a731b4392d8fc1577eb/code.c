@@ -1,0 +1,19 @@
+// Your code here...
+#include <stdio.h>
+
+int setNthBit(int num, int n) {
+    return num | (1 << n);
+}
+
+int main() {
+    int num, n;
+    printf("Enter the number: ");
+    scanf("%d", &num);
+    printf("Enter the bit position (n): ");
+    scanf("%d", &n);
+
+    num = setNthBit(num, n);
+    printf("The number after setting the %d-th bit to 1 is: %d\n", n, num);
+
+    return 0;
+}
