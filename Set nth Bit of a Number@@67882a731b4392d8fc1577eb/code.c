@@ -7,9 +7,7 @@ int setNthBit(int num, int n) {
 
 int main() {
     int num, n;
-    printf("Enter the number: ");
     scanf("%d", &num);
-    printf("Enter the bit position (n): ");
     scanf("%d", &n);
 
     num = setNthBit(num, n);
