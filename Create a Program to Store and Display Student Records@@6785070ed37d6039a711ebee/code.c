@@ -14,7 +14,7 @@ void inputStudentInfo(struct Student *s) {
     scanf("%d", &s->rollNumber);
 
     getchar();
-    fgets(s->name, sizeof(s->name), stdin);
+    fgets(s->name,sizeof(s->name),stdin);
     s->name[strcspn(s->name, "\n")] = '\0';
     scanf("%f", &s->marks);
 }
