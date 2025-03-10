@@ -8,7 +8,7 @@ struct student{
 int main(){
     struct student stud[1000];
     int n;
-    scanf("%d",n);
+    scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",stud[i].rollno);
         scanf("%c",stud[i].name);
