@@ -5,6 +5,7 @@ int main(){
         char name;
         float marks;
     }
+    structure student stud[1000];
     int n;
     scanf("%d",n);
     for(int i=0;i<n;i++){
