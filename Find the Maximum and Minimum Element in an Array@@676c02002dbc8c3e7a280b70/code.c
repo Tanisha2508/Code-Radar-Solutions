@@ -19,8 +19,8 @@ int main(){
         }
     }
 
-    printf("%d\n",max);
-    printf("%d\n",min);
+    printf("%d",max);
+    printf("%d",min);
 
     return 0;
 }
