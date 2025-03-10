@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <string.h>
 //program for read and display the information of all students in a class
 
 struct Student{
