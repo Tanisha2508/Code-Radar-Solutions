@@ -3,7 +3,7 @@ struct student{
         int rono;
         char name;
         float marks;
-    }
+    };
 int main(){
     struct student stud[1000];
     int n;
