@@ -23,7 +23,7 @@ void displayStudentInfo(struct Student s) {
 
     printf("Roll Number: %d,", s.rollNumber);
     printf("Name: %s,", s.name);
-    printf("Marks: %.2f", s.marks);
+    printf("Marks: %.2f\n", s.marks);
 }
 
 int main() {
