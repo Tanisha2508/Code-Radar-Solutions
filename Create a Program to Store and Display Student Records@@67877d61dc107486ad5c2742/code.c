@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <math.h>
-int main(){
-    int structure;
-    structure student{
+structure student{
         int rono;
         char name;
         float marks;
     }
+int main(){
+    
     structure student stud[1000];
     int n;
     scanf("%d",n);
