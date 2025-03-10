@@ -22,7 +22,7 @@ int countWords(const char *str) {
 }
 
 int main() {
-    char str[];
+    char str[100];
     printf("%d\n",countWords(str));
     return 0;
 }
