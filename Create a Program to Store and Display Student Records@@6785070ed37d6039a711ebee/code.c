@@ -8,11 +8,8 @@ struct Student{
     char name[50];
     float marks;
 };
-
 void inputStudentInfo(struct Student *s) {
-
     scanf("%d", &s->rollNumber);
-
     getchar();
     fgets(s->name,sizeof(s->name),stdin);
     s->name[strcspn(s->name, "\n")] = '\0';
@@ -20,9 +17,8 @@ void inputStudentInfo(struct Student *s) {
 }
 
 void displayStudentInfo(struct Student s) {
-
     printf("Roll Number: %d,", s.rollNumber);
-    printf("Name: %s,", s.name);
+    printf(" Name: %s,", s.name);
     printf("Marks: %.2f\n", s.marks);
 }
 
