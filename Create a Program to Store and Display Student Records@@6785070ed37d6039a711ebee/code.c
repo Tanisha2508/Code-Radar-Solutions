@@ -11,15 +11,11 @@ struct Student{
 
 void inputStudentInfo(struct Student *s) {
 
-    printf("Roll Number: ");
     scanf("%d", &s->rollNumber);
 
-    printf("Name: ");
     getchar();
     fgets(s->name, sizeof(s->name), stdin);
     s->name[strcspn(s->name, "\n")] = '\0';
-
-    printf("Marks: ");
     scanf("%f", &s->marks);
 }
 
