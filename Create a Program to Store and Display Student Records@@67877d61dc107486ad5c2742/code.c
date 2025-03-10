@@ -8,14 +8,14 @@ int main(){
     int n;
     scanf("%d",n);
     for(int i=0;i<n;i++){
-        scanf("%d",stud[i].rollno);
+        scanf("%d",stud[i].rono);
         scanf("%c",stud[i].name);
         scanf("%f",stud[i].marks);
           }
     for(int i=0;i<n;i++){
-        printf("%d",stud[i].rollno);
-        printf("%c",stud[i].name);
-        printf("%f",stud[i].marks);
+        printf("Roll Number: %d ,",stud[i].rono);
+        printf("Name: %c,",stud[i].name);
+        printf("Marks: %f",stud[i].marks);
     }
     return 0;
 }
