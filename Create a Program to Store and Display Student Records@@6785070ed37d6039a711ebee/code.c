@@ -6,7 +6,7 @@ int main()
     char name[50];
     float attendence;
 };
-struct student stud[1000];
+
 int n;
 scanf("%d",&n);
 for(int i=0;i<n;i++){
