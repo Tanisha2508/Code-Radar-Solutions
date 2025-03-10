@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
+    int structure;
     structure student{
         int rono;
         char name;
