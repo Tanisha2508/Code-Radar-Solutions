@@ -5,7 +5,7 @@ int main(){
     scanf("%s",ch);
 int size=0;
 int i=0;
-while(ch<20){
+while(ch !='\0'){
     size++;
     i++;
 }
