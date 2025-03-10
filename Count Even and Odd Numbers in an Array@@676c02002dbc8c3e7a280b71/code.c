@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int i,j;
+    int i,n;
     char arr[87];
     scanf("%d",&n);
     int count=0;
