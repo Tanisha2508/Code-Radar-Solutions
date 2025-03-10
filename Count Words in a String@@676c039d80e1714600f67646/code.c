@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 #include <ctype.h>
 
@@ -10,7 +9,6 @@ int countWords(const char *str) {
         if (isspace(*str)) {
             inWord = 0;
         } else {
-            
             if (!inWord) {
                 count++;
                 inWord = 1;
@@ -24,5 +22,11 @@ int countWords(const char *str) {
 int main() {
     int count;
     char str[100];
-    printf("%d\n",countWords(str));
+    fgets(str, sizeof(str), stdin);
+
+    count = countWords(str);
+    printf("%d\n", count);
+    
+    return 0;
 }
+
