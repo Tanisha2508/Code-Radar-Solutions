@@ -10,9 +10,9 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        scanf("%d",stud[i].rollno);
+        scanf("%d",&stud[i].rollno);
         scanf("%c",stud[i].name);
-        scanf("%f",stud[i].marks);
+        scanf("%f",&stud[i].marks);
         }
     for(int i=0;i<n;i++){
         printf("Roll Number: %d ,",stud[i].rollno);
