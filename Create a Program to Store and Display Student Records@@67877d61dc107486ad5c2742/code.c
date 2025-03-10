@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    structure student{
+    strcture student{
         int rono;
         char name;
         float marks;
