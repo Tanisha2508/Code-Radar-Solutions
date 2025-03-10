@@ -1,40 +1,25 @@
-// Your code here...
-#include <stdio.h>
-#include <string.h>
-//program for read and display the information of all students in a class
-
-struct Student{
-    int rollNumber;
+#include<stdio.h>
+int main()
+{
+    struct student{
+    int rollno;
     char name[50];
-    float marks;
+    float attendence;
 };
-void inputStudentInfo(struct Student *s) {
-    scanf("%d", &s->rollNumber);
-    getchar();
-    fgets(s->name,sizeof(s->name),stdin);
-    s->name[strcspn(s->name, "\n")] = '\0';
-    scanf("%f", &s->marks);
+struct student stud[1000];
+int n;
+scanf("%d",&n);
+for(int i=0;i<n;i++){
+    scanf("%d",&stud[i].rollno);
+    scanf("%s",&stud[i].name);
+    scanf("%f",&stud[i].attendence);
 }
-
-void displayStudentInfo(struct Student s) {
-    printf("Roll Number: %d,", s.rollNumber);
-    printf(" Name: %s,", s.name);
-    printf("Marks: %.2f\n", s.marks);
+for(int i=0;i<n;i++){
+    printf("Roll Number: %d\n",stud[i].rollno);
+    printf("Name: %s\n",stud[i].name);
+    printf("Marks: %.2f\n",stud[i].attendence);
 }
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    struct Student students[n];
-    for (int i = 0; i < n; i++) {
-        inputStudentInfo(&students[i]);
-    }
-    for (int i = 0; i < n; i++) {
-        displayStudentInfo(students[i]);
-    }
-
-    return 0;
+return 0;
 }
-
 
 
