@@ -11,7 +11,6 @@ struct Student{
 
 void inputStudentInfo(struct Student *s) {
 
-    printf("Enter student details:\n");
     printf("Roll Number: ");
     scanf("%d", &s->rollNumber);
 
@@ -25,7 +24,7 @@ void inputStudentInfo(struct Student *s) {
 }
 
 void displayStudentInfo(struct Student s) {
-    printf("\nStudent Details:\n");
+
     printf("Roll Number: %d\n", s.rollNumber);
     printf("Name: %s\n", s.name);
     printf("Marks: %.2f\n", s.marks);
@@ -33,13 +32,10 @@ void displayStudentInfo(struct Student s) {
 
 int main() {
     int n;
-
-    printf("Enter the number of students: ");
     scanf("%d", &n);
-
     struct Student students[n];
     for (int i = 0; i < n; i++) {
-        printf("\nEnter details for student %d:\n", i + 1);
+        printf("%d:\n",i + 1);
         inputStudentInfo(&students[i]);
     }
 
