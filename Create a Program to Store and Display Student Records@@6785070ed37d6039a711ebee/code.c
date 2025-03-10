@@ -35,11 +35,8 @@ int main() {
     scanf("%d", &n);
     struct Student students[n];
     for (int i = 0; i < n; i++) {
-        printf("%d:\n",i + 1);
         inputStudentInfo(&students[i]);
     }
-
-    printf("\nDisplaying all student information:\n");
     for (int i = 0; i < n; i++) {
         displayStudentInfo(students[i]);
     }
