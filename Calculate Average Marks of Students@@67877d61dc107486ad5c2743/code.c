@@ -15,11 +15,8 @@ int main(){
         scanf("%s",stud[i].name);
         scanf("%f",&stud[i].marks);
     }
-    
-        printf("Average Marks: %.2f",stud[i].marks);
-    
-    
     }
+    printf("Average Marks: %.2f",stud[i].marks);
     printf("\n");
     return 0;
 }
