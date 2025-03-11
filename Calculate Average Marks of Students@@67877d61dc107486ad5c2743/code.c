@@ -18,8 +18,10 @@ int main(){
     for(int j=1;j<=n;j++){
         printf("%d %s %.f",stud[i].roll_num,stud[i].name,stud[i].marks);
         printf("\n");
+        printf("Average Marks: %.2f",stud[i].marks);
     }
+    
     }
     printf("\n");
-    
+    return 0;
 }
