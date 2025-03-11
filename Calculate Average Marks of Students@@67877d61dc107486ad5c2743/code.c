@@ -16,8 +16,6 @@ int main(){
         scanf("%f",&stud[i].marks);
     }
     for(int j=1;j<=n;j++){
-        
-        printf("\n");
         printf("Average Marks: %.2f",stud[i].marks);
     }
     
