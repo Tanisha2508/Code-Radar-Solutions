@@ -1,13 +1,13 @@
 // Your code here...
 #include <stdio.h>
 struct student{
-    int roll_num,i;
+    int roll_num;
     float marks;
     char name[50];
 };
 struct student stud[1000];
 int main(){
-    int n;
+    int n,i;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
     for(i=1;i<=n;i++){
