@@ -14,7 +14,7 @@ int main(){
         else{
             odd++;
         }
-        printf("%d",count);
+        printf("%d %d",count,odd);
     }
     return 0;
 }
