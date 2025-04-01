@@ -1,12 +1,13 @@
 // Your code here...
 #include <stdio.h>
 
-struct student{
+
+int main(){
+    struct student{
         int rollno;
         char name[56];
         float marks;
     };
-int main(){
     struct student stud[1000];
     int n;
     scanf("%d",&n);
