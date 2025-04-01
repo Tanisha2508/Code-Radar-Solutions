@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-
 int main(){
     struct student{
         int rollno;
@@ -19,6 +17,7 @@ int main(){
         printf("Roll Number: %d ,",stud[i].rollno);
         printf("Name: %s,",stud[i].name);
         printf("Marks: %f",stud[i].marks);
+        printf("\n");
     }
     return 0;
 }
