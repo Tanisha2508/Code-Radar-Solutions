@@ -12,7 +12,7 @@ int main(){
             else if(i==j){
                 printf("*");
             }
-            else if(j==n){
+            else if(j==a){
                 printf("*");
             }
             else{
