@@ -17,8 +17,6 @@ int main(){
         sum += stud[i].marks;
     }
     float average_marks = sum/n;
-
-    
     printf("Average Marks: %.2f",average_marks);
     printf("\n");
     return 0;
