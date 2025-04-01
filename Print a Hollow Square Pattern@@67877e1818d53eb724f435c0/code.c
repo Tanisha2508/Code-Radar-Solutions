@@ -15,6 +15,9 @@ int main(){
             else if(j==a){
                 printf("*");
             }
+            else if(j==n){
+                printf("*");
+            }
         }
         printf("\n");
     }
