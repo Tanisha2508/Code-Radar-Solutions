@@ -12,6 +12,9 @@ int main(){
             else if(i==j){
                 printf("*");
             }
+            else if(j==n){
+                printf("*");
+            }
             else{
                 printf(" ");
             }
