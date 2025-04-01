@@ -13,7 +13,7 @@ int main(){
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&stud[i].rollno);
-        scanf("%c",stud[i].name);
+        scanf("%s",stud[i].name);
         scanf("%f",&stud[i].marks);
         }
     for(int i=0;i<n;i++){
