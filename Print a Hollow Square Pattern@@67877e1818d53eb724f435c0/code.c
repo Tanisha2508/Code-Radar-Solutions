@@ -12,8 +12,7 @@ int main(){
             else if(j==1){
                 printf("*");
             }
-            // else if(j==a){
-            //     printf("*");
+            
             }
             else if(i==a){
                 printf("*");
