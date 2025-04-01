@@ -9,7 +9,7 @@ int main(){
             else if(i==1){
                 printf("*");
             }
-            else if(i==j){
+            else if(j==1){
                 printf("*");
             }
             else if(j==a){
