@@ -16,6 +16,9 @@ int main(){
             else if(i==a){
                 printf("*");
             }
+            else if(j==a){
+                printf("*");
+            }
             else{
                 printf(" ");
             }
